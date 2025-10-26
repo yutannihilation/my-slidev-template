@@ -4,7 +4,14 @@
 
     li {
         @apply py-[0.4rem] leading-tight;
+    }
+
+    ul > li {
         list-style-type: disc;
+    }
+
+    ol > li {
+        list-style-type: decimal;
     }
 
     h1,
@@ -22,10 +29,13 @@
         font-weight: 900;
     }
 
-    p {
+    p, h1 + p {
         @apply mt-0;
         font-weight: 900;
+        /* by default, h1 + p is opacity: 0.5, so reset */
+        opacity: 1;
     }
+    
 
     h1 {
         @apply text-5xl;
