@@ -3,4 +3,4 @@
 このままでは GitHub Pages にデプロイされないので以下の手順が必要。
 
 - Settings > Pages > Build and deployment の「Source」を GitHub Actions に
-- `pnpm install` を実行して、生成された `pnpm-lock.yaml` をコミットしてプッシュ
+- `bun install` を実行して、生成された `bun.lock` をコミットしてプッシュ
