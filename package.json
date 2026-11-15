@@ -10,7 +10,7 @@
   "dependencies": {
     "@slidev/cli": "^52.20.1",
     "@slidev/theme-default": "latest",
-    "vue": "^3.5.35"
+    "vue": "^3.5.45"
   },
   "trustedDependencies": [
     "esbuild"
