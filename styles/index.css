@@ -20,7 +20,7 @@
     h4,
     p,
     div {
-        @apply select-none leading-tight;
+        @apply leading-tight;
         font-weight: 900;
     }
 

@@ -8,6 +8,7 @@ fonts:
   weights: 600,900
 class: text-center
 comark: true
+selectable: false
 favicon: /favicon.ico
 # seoMeta:
 #  ogImage: https://cover.sli.dev
