@@ -7,7 +7,8 @@ fonts:
   mono: Fira Code
   weights: 600,900
 class: text-center
-mdc: true
+comark: true
+selectable: false
 favicon: /favicon.ico
 # seoMeta:
 #  ogImage: https://cover.sli.dev
